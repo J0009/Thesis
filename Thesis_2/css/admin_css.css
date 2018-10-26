@@ -1,0 +1,25 @@
+body{
+}
+/*error text*/.text{
+	color: red;
+	font-size: 230%;
+	font-family: times new roman;
+}
+/*text in main menu*/.text1{
+	color: blue;
+	font-size: 180%;
+	font-family: times new roman;
+}
+.text2{
+	color: aqua;
+	font-size: 180%;
+	font-family: times new roman;
+}
+
+.border{
+	height: 500px; 
+	width: 50%; 
+	background: blue;
+	border-style: ridge inset;
+	border-width: 10px;
+}

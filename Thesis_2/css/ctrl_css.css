@@ -1,0 +1,68 @@
+
+@media print{
+	#print{
+		display: none;
+	}
+}
+@media print{
+	@page{
+		size: auto A4 portrait;
+		font-size: 10px;
+		margin-right: 0.5in;
+		margin-left: 0.5in;
+		margin-top: 0.25in;
+		margin-bottom: 0.25in;
+		line-height:1;
+		transform: scale(.25);
+	}
+}
+/*text in main menu*/.text1{
+	color: blue;
+	font-size: 300%;
+	font-family: times new roman;
+}
+.text2{
+	color: aqua;
+	font-size: 180%;
+	font-family: times new roman;
+}
+/*buttons*/img{
+	background-blend-mode: overlay;
+}
+/*table background*/frameset{
+	background: linear-gradient(to right , aqua,rgb(0,153,255));
+	background-repeat: repeat-y;
+	background-size:cover;
+}
+.border{
+	height: 500px; 
+	width: 50%; 
+	background-image: url('img/PSU.png');
+	/*background-repeat: no-repeat; 
+	background-size: contain;
+	background-position: right;*/
+	border-style: ridge inset;
+	border-width: 10px;
+}
+/*error text*/.text{
+	color: red;
+	font-size: 230%;
+	font-family: times new roman;
+}
+.textsize{
+	font-size: 1.3em;
+}
+.td{
+	width: 200px;
+	font-size: 1em;
+	border-right: none;
+}/*background for data in table*/
+.th{
+	background: linear-gradient(to right, silver,white);
+	font-size: 1.2em;
+}
+.button{
+	border-radius: 25px;
+    background: #00e600;
+    font-size: 90%;
+    font-family: bookman old style;
